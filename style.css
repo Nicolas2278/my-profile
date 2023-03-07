@@ -1,0 +1,89 @@
+body {
+	background: rgb(238, 238, 238);
+	color:  rgb(34, 40, 49);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+
+}
+h1, h2 {
+	color: rgb(34, 40, 49);
+	font-family: 'Oswald', sans-serif;
+}
+h1 {
+	font-size: 32px;
+	font-weight: 700;
+	margin: auto 175px;
+	padding: 10px auto;
+}	
+h2 {
+	font-size: 24px;
+	font-weight: 500;
+}
+a {
+	color: rgb(218, 0, 55);
+	font-weight: 500;
+	transition: rgb(233, 69, 96) 0.3s ease;
+}
+a:hover {
+  color: rgb(233, 69, 96);
+  text-decoration: none;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+#button {
+	margin: 156px;
+	padding: 5px 25px;
+	background: rgb(233, 69, 96);
+	color: white;
+	font-weight: 700;
+	border-radius: 5px;
+}
+#leftbox1 {
+                float:left;
+                width:45%;
+                height:180px;
+}
+#rightbox1 {
+                float:right;
+                width:45%;
+                height:180px;
+}
+#leftbox2 {
+                float:left;
+                width:45%;
+                height:180px;
+}
+#rightbox2 {
+                float:right;
+                width:45%;
+                height:180px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+@media (max-width: 100px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 50px;
+	}
+}
